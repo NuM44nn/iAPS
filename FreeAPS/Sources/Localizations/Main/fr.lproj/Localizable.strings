@@ -161,10 +161,10 @@
 "Override" = "Override";
 
 /* Home View Message if no pump is connected */
-"No Pump" = "No Pump";
+"No Pump" = "Pas de pompe";
 
 /* Home View Message if open loop is active */
-"Open" = "Open";
+"Open" = "Ouvert";
 
 /*  */
 "Amount Carbs" = "Quantité de Glucides";
@@ -272,7 +272,7 @@
 "Autotune" = "Autotune";
 
 /* Debug option view Dynamic Variables */
-"Dynamic Variables" = "Dynamic Variables";
+"Dynamic Variables" = "Variables dynamiques";
 
 /*  */
 "Basal profile" = "Profil Basal";
@@ -460,6 +460,9 @@ Enact a temp Basal or a temp target */
 
 /* Add Omnipod pump */
 "Add Omnipod" = "Ajouter une pompe Omnipod";
+
+/* Add Dana-i/RS pump */
+"Add Dana-i/RS" = "Add Dana-i/RS";
 
 /* Add Simulator pump */
 "Add Simulator" = "Ajouter un simulateur";
@@ -706,19 +709,19 @@ Enact a temp Basal or a temp target */
 "Treatments" = "Traitements";
 
 /* Add Insulin */
-"Add Insulin" = "Add Insulin";
+"Add Insulin" = "Ajouter de l'insuline";
 
 /* Add Glucose */
-"Add Glucose" = "Add Glucose";
+"Add Glucose" = "Ajouter une glycémie";
 
 /* New Glucose */
-"New Glucose" = "New Glucose";
+"New Glucose" = "Nouvelle glycémie";
 
 /* Hypo Treatment Preset */
 "Treatment" = "Traitement";
 
 /* Hypo Treatment Default Value */
-"Default  📉" = "Default  📉";
+"Default  📉" = "Traitement par défaut";
 
 /* Hypo Treatment Default Value */
 "None" = "Aucun";
@@ -946,10 +949,10 @@ Enact a temp Basal or a temp target */
 "Sensor Info" = "Infos capteur";
 
 /* */
-"Sensor Life-Span" = "Sensor Life-Span";
+"Sensor Life-Span" = "Durée de vie du capteur";
 
 /* */
-"When using %@ iAPS doesn't know the type of sensor used or the sensor life-span." = "When using %@ iAPS doesn't know the type of sensor used or the sensor life-span.";
+"When using %@ iAPS doesn't know the type of sensor used or the sensor life-span." = "Lorsque vous utilisez %@, iAPS ne connaît pas le type de capteur utilisé ou la durée de vie du capteur.";
 
 /* */
 "Sensor Age Left" = "Âge restant capteur";
@@ -1141,10 +1144,10 @@ Enact a temp Basal or a temp target */
 "Activates an %@ Override Preset" = "Active un %@ préréglage de remplacement";
 
 /* Suspend/Resume Shortcut */
-"Choose what to do with your pump" = "Choose what to do with your pump";
+"Choose what to do with your pump" = "Choisissez ce que vous voulez faire avec votre pompe";
 
 /* Suspend/Resume Shortcut */
-"Are you sure you want to %@ your pump?" = "Are you sure you want to %@ your pump?";
+"Are you sure you want to %@ your pump?" = "Êtes-vous sûr de vouloir %@ votre pompe ?";
 
 /* Suspend/Resume Shortcut */
 "Pump command" = "Pump command";
@@ -1248,6 +1251,54 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Carbs Required Threshold" = "Seuil de glucides requis";
+
+/* */
+"Carbs Required" = "Glucides requis";
+
+/* */
+"Sounds" = "Sons";
+
+/* Sound for Hypo alert */
+"Hypoglycemia" = "Hypoglycémie";
+
+/* Sound for Hyper alert */
+"Hyperglycemia" = "Hyperglycémie";
+
+/* Sound for ascending glucose */
+"Rapidly Ascending" = "Montée rapide";
+
+/* Sound for descending glucose */
+"Rapidly Descending" = "Chute rapide";
+
+/* Silent sound option */
+"Silent" = "Silencieux";
+
+/* Option for no sound */
+"Silent" = "Silencieux";
+
+/* The iOS default sound */
+"iOS default sound" = "Son par défaut d'iOS";
+
+/* Alert for descending glucose */
+"RAPIDLY DESCENDING GLUCOSE!" = "GLYCÉMIE EN CHUTE RAPIDE !";
+
+/* Alert for ascending glucose */
+"RAPIDLY ASCENDING GLUCOSE!" = "GLYCÉMIE EN MONTÉE RAPIDE !";
+
+/* Sound for bolus failure */
+"Bolus Failure" = "Échec du bolus";
+
+/* Sound for missing loops */
+"Missing Loops" = "Boucles manquées";
+
+/* Alert for ascending glucose */
+"Ascending" = "Montante";
+
+/* Alert for descending glucose */
+"Descending" = "Descendante";
+
+/* Thresholds for Alerts */
+"Thresholds" = "Seuils d'alerte";
 
 /* */
 "Carbs required: %d g" = "Glucides requis :%d g";
@@ -1468,7 +1519,7 @@ Enact a temp Basal or a temp target */
 " -  Manual Basal ⚠️" = " -  Débit basal manuel ⚠️";
 
 /* Total AT / Scheduled basal insulin */
-" U/day" = " U/jour";
+"U/day" = "U/day";
 
 /* Total AT / Scheduled basal insulin */
 "Total" = "Total";
@@ -1562,7 +1613,7 @@ Enact a temp Basal or a temp target */
 "Profiles" = "Profils";
 
 /* */
-"Advanced Settings" = "Advanced Settings";
+"Advanced Settings" = "Réglages avancés";
 
 /* */
 "More options" = "Plus d'options";
@@ -1700,6 +1751,9 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Eventual Glucose" = "Glycémie éventuelle";
+
+/* */
+"Minimum Predicted Glucose" = "Minimum Predicted Glucose";
 
 /* */
 "Please wait" = "Patientez s'il vous plait";
@@ -2486,7 +2540,7 @@ Enact a temp Basal or a temp target */
 /* */
 "SMB Delivery Ratio BG Range" = "SMB Delivery Ratio BG Range";
 
-/* */
+/* SMB Delivery Ratio BG Range description */
 "Default value: 0, Sensible is between 40 mg/dL and 120 mg/dL. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range]. At target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max. With 0 the linearly increasing SMB ratio is disabled and the fix smb_delivery_ratio is used." = "Default value: 0, Sensible is between 40 mg/dL and 120 mg/dL. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range]. At target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max. With 0 the linearly increasing SMB ratio is disabled and the fix smb_delivery_ratio is used.";
 
 /* */
@@ -2536,6 +2590,9 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Max IOB Threshold Percent" = "Max IOB Threshold Percent";
+
+/* IOB Threshold Percent Description */
+"Percentage of the max IOB setting to use for SMBs while Auto ISF is enabled.\n\nWhile current IOB is below the threshold, the SMB amount can exceed the threshold by 30%, however never the max IOB setting.\n\nAt 100% this setting is disabled." = "Percentage of the max IOB setting to use for SMBs while Auto ISF is enabled.\n\nWhile current IOB is below the threshold, the SMB amount can exceed the threshold by 30%, however never the max IOB setting.\n\nAt 100% this setting is disabled.";
 
 /* */
 "Auto ISF" = "Auto ISF";
@@ -2924,6 +2981,12 @@ Enact a temp Basal or a temp target */
 
 /* UI/UX option */
 "Display Temp Targets Button" = "Afficher le bouton de cible temporaire";
+
+/* UI/UX option */
+"Display Profile Override Button" = "Display Profile Override Button";
+
+/* UI/UX option */
+"Display Meal Button" = "Display Meal Button";
 
 /* UI/UX option */
 "Home View Button Panel " = "Panneau des boutons sur la vue d'accueil ";
